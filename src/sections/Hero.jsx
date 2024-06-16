@@ -22,7 +22,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="flex justify-center items-center w-1/2 px-5 py-20 object-cover">
-        <img src={heroImg} alt="hero image" width={500} height={500} />
+        <img src={heroImg} alt="hero image" className="w-[500px] h-[400px] lg:w-[500px] lg:h-[450px] lg:mr-14" />
       </div>
     </section>
   );
