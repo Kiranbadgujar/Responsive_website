@@ -7,7 +7,7 @@ const Contact = () => {
     <>
       <section id="contact" className="w-full bg-slate-200 flex flex-col lg:flex-row gap-10 lg:gap-20 h-fit p-4 lg:p-20 justify-center items-center">
         <div className="w-full flex justify-center items-center lg:w-3/4 flex-col lg:flex-row bg-white rounded-lg px-8 py-12 gap-10 z-20">
-          <div className="flex justify-center items-center w-full flex-col gap-4">
+          <div className="flex justify-center items-start w-full flex-col gap-4">
             <h1 className="text-green-600 font-bold text-[35px]">Contact Info</h1>
             <div id="phone" className="flex justify-center items-center gap-4 text-lg font-semibold text-gray-600">
               <span className="bg-green-400 p-3 rounded-full"><img src={call} width={22} height={22} /></span>+91 9054249254
